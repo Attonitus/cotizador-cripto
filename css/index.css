@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #0D1F2E;
+    color: white;
+}
+
+.hero{
+    inline-size: 25rem;
+}
+
+.hero img{
+    max-inline-size: 100%;
+}
+
+h3{
+    margin: 0;
+    margin-block: .5rem;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    max-inline-size: 75rem;
+    min-height: 100vh;
+    padding-inline: 1rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultados{
+    margin-block: 1rem;
+}
+
+.form{
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    inline-size: 25rem;
+    padding: 1rem;
+
+}
+
+.form select{
+    padding: .5rem;
+}
+
+.form .submit:hover{
+    cursor: pointer;
+    color: #2EB9EE;
+    background-color: white;
+    transition: all .3s ease-in-out;
+}
+
+.form .submit{
+    padding-block: .75rem;
+    padding-inline: 1rem;
+    background-color: #2EB9EE;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.error{
+    background-color: #ae2121;
+    text-align: center;
+    padding: 1rem;
+}
